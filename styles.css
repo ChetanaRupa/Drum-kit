@@ -1,0 +1,43 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.drumkit {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #d49292;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.drum-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+}
+
+.drum-image {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    border-radius: 50%;
+}
+
+.drum-image:hover {
+    transform: scale(1.1);
+}
+
+.drum-image:active {
+    transform: scale(0.9);
+}
+
+.drum-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
